@@ -130,6 +130,16 @@ Ensure pg_config is available on your system.
 pg_config
 ```
 
+install pg_config
+```shell
+sudo apt-get install libpq-dev
+```
+
+check path
+```shell
+which pg_config
+```
+
 If not (it gives a `command not found` error), check [here](https://www.enterprisedb.com/postgres-tutorials/how-use-postgresql-django) for more info. on how to add it.
 
 Install psycopg2
