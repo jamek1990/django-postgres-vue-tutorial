@@ -132,7 +132,7 @@ pg_config
 
 install pg_config
 ```shell
-sudo apt-get install libpq-dev python-dev
+sudo apt install libpq-dev python3-dev
 ```
 
 check path
