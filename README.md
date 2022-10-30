@@ -172,6 +172,10 @@ DATABASES = {
 Start up postgres, and create the database you want to use. In this case, `myproject`.
 
 ```shell
+sudo apt install postgresql-client-common
+```
+
+```shell
 createdb myproject
 ```
 
