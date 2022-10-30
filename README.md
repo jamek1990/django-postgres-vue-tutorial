@@ -175,6 +175,7 @@ Start up postgres, and create the database you want to use. In this case, `mypro
 sudo apt install postgresql-client-common
 sudo apt-get install postgresql-client
 ```
+[stworzenie bazy danych](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart)
 
 ```shell
 createdb myproject
