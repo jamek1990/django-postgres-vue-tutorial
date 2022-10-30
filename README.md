@@ -173,6 +173,7 @@ Start up postgres, and create the database you want to use. In this case, `mypro
 
 ```shell
 sudo apt install postgresql-client-common
+sudo apt-get install postgresql-client
 ```
 
 ```shell
