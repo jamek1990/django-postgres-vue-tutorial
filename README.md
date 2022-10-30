@@ -177,6 +177,18 @@ sudo apt-get install postgresql-client
 ```
 [stworzenie bazy danych](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart)
 
+
+
+To log in without a password:
+```shell
+sudo -u user_name psql db_name
+```
+To reset the password if you have forgotten:
+```shell
+ALTER USER user_name WITH PASSWORD 'new_password';
+```
+
+
 ```shell
 createdb myproject
 ```
